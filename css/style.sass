@@ -1,0 +1,59 @@
+// Project name: HTML Pages | Free HTML templates
+
+//Variables
+$font: 'Poppins', sans-serif
+$black: #333333
+$white: #ffffff
+$grey: #F1F3F6
+$primaryColor: #1577EA
+$darkGrey: #7B7B7B
+
+*,*,*:after,*:before
+    margin: 0
+    padding: 0
+    position: relative
+    box-sizing: border-box
+    outline: none
+    &:focus
+        outline: none !important
+        box-shadow: none !important
+
+html,body
+    font-family: $font
+    font-weight: 400
+    scroll-behavior: smooth
+    color: $black
+
+h1,h2,h3,h4,h5,h6
+    font-weight: 700
+
+div,header,nav,footer,section,aside,article
+    display: block
+
+p,span,li
+    color: $darkGrey
+
+a
+    color: $primaryColor
+    text-decoration: none
+    &:hover
+        text-decoration: none
+        color: $black
+
+ul
+    margin: 0
+    padding: 0
+    li
+        list-style-type: none
+
+img
+    width: 100%
+    
+
+/* Main CSS */
+.btn.btn-primary
+    background-color: $primaryColor
+
+header
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1)
+    background-color: $white
