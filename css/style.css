@@ -60,9 +60,95 @@ img {
   background-color: #1577EA;
 }
 
+.section-header {
+  margin-bottom: 1.5em;
+}
+
+.section-header h1, .section-header h2, .section-header h3, .section-header h4, .section-header h5, .section-header h6 {
+  font-size: 2em;
+  color: #1577EA;
+}
+
+.template-card {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+}
+
+.template-card img {
+  max-height: 330px;
+  min-height: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.template-card h1, .template-card h2, .template-card h3, .template-card h4, .template-card h5, .template-card h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 1em;
+}
+
+.template-card .card-content {
+  padding: 15px;
+}
+
+.template-card .btn {
+  margin: 0 5px;
+}
+
+.template-card .btn:first-child {
+  margin-left: 0;
+}
+
 header {
   -webkit-box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  padding: 10px 0;
+}
+
+header .navbar-brand img {
+  width: 140px;
+}
+
+header .nav-link {
+  color: #333333;
+}
+
+header .nav-item {
+  margin: 0 20px;
+}
+
+header .nav-item:last-child {
+  margin-right: 0;
+}
+
+.hero-wrapper {
+  padding: 100px 0;
+}
+
+.hero-wrapper .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-wrapper .hero-content h1, .hero-wrapper .hero-content h2, .hero-wrapper .hero-content h3, .hero-wrapper .hero-content h4, .hero-wrapper .hero-content h5, .hero-wrapper .hero-content h6 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.hero-wrapper .hero-content h1 span, .hero-wrapper .hero-content h2 span, .hero-wrapper .hero-content h3 span, .hero-wrapper .hero-content h4 span, .hero-wrapper .hero-content h5 span, .hero-wrapper .hero-content h6 span {
+  font-weight: bold;
+  color: #1577EA;
+}
+
+.template-wrapper {
+  padding: 100px 0;
+  background-color: #F1F3F6;
 }
 /*# sourceMappingURL=style.css.map */

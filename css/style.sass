@@ -54,6 +54,60 @@ img
 .btn.btn-primary
     background-color: $primaryColor
 
+.section-header
+    margin-bottom: 1.5em
+    h1,h2,h3,h4,h5,h6
+        font-size: 2em
+        color: $primaryColor
+
+.template-card
+    background-color: $white
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1)
+    margin-bottom: 1.5em
+    img
+        max-height: 330px
+        min-height: 330px
+        object-fit: cover
+    h1,h2,h3,h4,h5,h6
+        font-size: 18px
+        font-weight: 600
+        color: $black
+        margin-bottom: 1em
+    .card-content
+        padding: 15px
+    .btn
+        margin: 0 5px
+        &:first-child
+            margin-left: 0
+
 header
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1)
     background-color: $white
+    padding: 10px 0
+    .navbar-brand
+        img
+            width: 140px
+    .nav-link
+        color: $black
+    .nav-item
+        margin: 0 20px
+        &:last-child
+            margin-right: 0
+
+.hero-wrapper
+    padding: 100px 0
+    .row
+        align-items: center
+    .hero-content
+        h1,h2,h3,h4,h5,h6
+            font-size: 52px
+            font-weight: 600
+            color: $black
+            margin-bottom: 20px
+            span
+                font-weight: bold
+                color: $primaryColor
+
+.template-wrapper
+    padding: 100px 0
+    background-color: $grey
